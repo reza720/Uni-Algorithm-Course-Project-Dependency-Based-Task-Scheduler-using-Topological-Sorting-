@@ -1,0 +1,1 @@
+Valid Task Order: Intro -> Math -> DataStructures -> Algorithms -> Databases -> AI -> Capstone

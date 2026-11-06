@@ -1,0 +1,5 @@
+Tasks: A, B, C, D
+Dependencies:
+A -> B
+B -> C
+C -> D

@@ -1,0 +1,15 @@
+# Release plan for a small mobile app.
+# Several tasks can run in parallel; "Write user guide" depends on nothing
+# and "Translate UI" is not declared in the Tasks line (it is added from the
+# dependency list).
+Tasks: Requirements, Database design, API, Mobile UI, Testing, Write user guide, Deploy
+Dependencies:
+Requirements -> Database design
+Requirements -> Mobile UI
+Database design -> API
+API -> Testing
+Mobile UI -> Testing
+Mobile UI -> Translate UI
+Translate UI -> Testing
+Testing -> Deploy
+Write user guide -> Deploy

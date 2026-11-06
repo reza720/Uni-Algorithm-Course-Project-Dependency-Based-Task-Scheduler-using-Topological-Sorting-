@@ -1,0 +1,1 @@
+Input error: Line 4: cannot parse 'A => B'

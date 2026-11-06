@@ -1,0 +1,5 @@
+# Wrong arrow symbol on line 4: the program should report the line number
+Tasks: A, B, C
+Dependencies:
+A => B
+B -> C

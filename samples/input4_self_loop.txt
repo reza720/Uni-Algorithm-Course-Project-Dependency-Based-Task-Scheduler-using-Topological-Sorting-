@@ -1,0 +1,6 @@
+# A task that depends on itself can never start
+Tasks: Design, Build, Review
+Dependencies:
+Design -> Build
+Build -> Build
+Build -> Review

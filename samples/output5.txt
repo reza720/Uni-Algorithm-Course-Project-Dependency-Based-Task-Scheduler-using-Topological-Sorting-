@@ -1,0 +1,1 @@
+Valid Task Order: Requirements -> Write user guide -> Database design -> Mobile UI -> API -> Translate UI -> Testing -> Deploy

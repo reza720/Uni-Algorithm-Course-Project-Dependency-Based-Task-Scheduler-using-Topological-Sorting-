@@ -1,0 +1,10 @@
+# Course prerequisites: left must be taken before right
+Tasks: Intro, DataStructures, Algorithms, Databases, Math, AI, Capstone
+Dependencies:
+Intro -> DataStructures
+DataStructures -> Algorithms
+DataStructures -> Databases
+Math -> Algorithms
+Algorithms -> AI
+Databases -> Capstone
+AI -> Capstone
